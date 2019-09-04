@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="popup.css"
+        />
+    </head>
+    <body>
+        <div class="overlay">
+            <div class="translation">
+                <div class="translation__source">
+                    <textarea
+                        class="translation__source__text"
+                        placeholder="Type text to translate"
+                    ></textarea>
+
+                    <div class="translation__source__definition">
+                        <div
+                            class="translation__source__more__definition__text"
+                        ></div>
+                        <div
+                            class="translation__source__more__definition__example"
+                        ></div>
+                    </div>
+                </div>
+                <div class="translation__result">
+                    <div class="translation__result__text"></div>
+                    <div class="translation__result__more">
+                        <div class="translation__result__more__definition">
+                            <div
+                                class="translation__result__more__definition__text"
+                            ></div>
+                            <div
+                                class="translation__result__more__definition__example"
+                            ></div>
+                        </div>
+                        <ul class="translation__result__more__dict"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>

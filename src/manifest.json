@@ -1,0 +1,36 @@
+{
+    "name": "Translation extension",
+    "version": "1.0",
+    "description": "Fast translate, using Yandex Api",
+    "permissions": [
+        "contextMenus",
+        "activeTab"
+    ],
+    "background": {
+        "scripts": [
+            "main.js"
+        ],
+        "persistent": false
+    },
+    "options_page": "options.html",
+    "browser_action": {
+        "default_title": "Translate text",
+        "default_popup": "./popup/popup.html",
+        "default_icon": {
+            "16": "images/get_started16.png",
+            "32": "images/get_started32.png",
+            "48": "images/get_started48.png",
+            "128": "images/get_started128.png"
+        },
+        "icons": {
+            "16": "images/get_started16.png",
+            "32": "images/get_started32.png",
+            "48": "images/get_started48.png",
+            "128": "images/get_started128.png"
+        }
+    },
+    "icons": {
+        "16": "images/get_started16.png"
+    },
+    "manifest_version": 2
+}

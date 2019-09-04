@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(195, 199, 209);
+}
+
+body {
+    background-color: rgb(24, 27, 40);
+}
+
+.translation {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+}
+
+.translation__source {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.translation__source__text {
+    background-color: inherit;
+    resize: none;
+    min-height: 1rem;
+}
+
+.translation__result__text:empty {
+    display: none;
+}
+
+.translation__result__text,
+.translation__source__text {
+    border: 1px solid #5a5a5a;
+    border-radius: 2px;
+    white-space: pre;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.translation__result__more__definition__example,
+.translation__source__more__definition__example {
+    font-size: 0.7rem;
+    opacity: 0.8;
+    font-style: italic;
+}
